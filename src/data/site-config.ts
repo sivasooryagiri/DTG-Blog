@@ -45,10 +45,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
@@ -80,7 +76,7 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        enabled: true,
+        enabled: false,
         title: 'Subscribe to Dante Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {
