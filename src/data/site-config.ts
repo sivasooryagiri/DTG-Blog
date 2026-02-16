@@ -63,7 +63,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
     title: 'DeadTechGuy — Welcome to my small rentefree corner of the internet.',
-    text: "I'm **SivaSoorya**, the mind behind DeadTechGuy.\nI use this space to explore machine learning, deep learning, technology, and the ideas shaping modern software.\nSome posts are deep technical dives, others are short thoughts that don’t need a full video — just honest learning shared in public.\n\nYou can explore my work, experiments, and projects as I continue building and learning in real time.",
+    text: "I'm **SivaSoorya**, the mind behind DeadTechGuy.\nI use this space to explore machine learning, deep learning, technology, and the ideas shaping modern software.\nSome posts are deep technical dives, others are short thoughts that don’t need a full video — just honest learning shared in public.\n\nYou can explore my work, experiments, and projects as I continue building and learning in real time.\n\nCheck out my work on [GitHub](https://github.com/sivasooryagiri).",
     image: {
         src: hero,
         alt: 'DeadTechGuy workspace setup'
