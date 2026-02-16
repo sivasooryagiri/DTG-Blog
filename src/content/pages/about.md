@@ -1,43 +1,53 @@
 ---
 title: About
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: About DeadTechGuy
+  description: Learn more about the mind behind DeadTechGuy — a space for machine learning, tech exploration, research thoughts, and digital experiments.
   image:
     src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    alt: DeadTechGuy workspace setup
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![DeadTechGuy workspace](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Hi, I'm SivaSoorya — also known as DeadTechGuy
 
-## Ethan Donovan - Web Developer based in Estonia
+DeadTechGuy is more than just a blog. It’s a digital space where I document my journey through technology, machine learning, deep learning, and the ideas that shape the future of software and innovation.  
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+I don’t see this website as just a content platform — it’s an extension of my thinking process. Some posts are deep technical explorations, others are short insights that don’t need a full video but still deserve to exist.
 
-## Skills and Expertise
+## Why this website exists
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+Technology moves fast, and learning publicly helps me stay consistent. Here you’ll find:
 
-## Innovation and Problem-Solving
+- Thoughts on machine learning and AI
+- Experiments and research notes
+- Tech opinions and observations
+- Personal learnings from building projects
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+This space is built for curiosity — not perfection.
 
-## Global Perspective, Local Impact
+## My Background
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I’m a self-driven learner focused on modern technology, especially machine learning and deep learning. I enjoy breaking down complex ideas, building things from scratch, and exploring how systems actually work under the hood.
 
-## Continuous Learning
+Rather than following a traditional path, I prefer learning by building, experimenting, and sharing what I discover along the way.
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+## Philosophy
 
-## Collaboration and Communication
+DeadTechGuy is about mindset:
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+- Learn deeply  
+- Think independently  
+- Build consistently  
+- Share honestly  
 
-## Get in Touch
+Not every post will be polished — and that’s intentional. Progress matters more than perfection.
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+## Let’s Connect
 
-_Let's build something amazing together!_
+If you enjoy thoughtful tech content, experimental ideas, or discussions around AI and innovation, you’re in the right place.
+
+You can reach out through the contact page or connect with me through my socials.
+
+_Let’s keep building and exploring._

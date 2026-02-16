@@ -7,8 +7,8 @@ seo:
 
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:dtg@soluto.in), and I'll do my best to respond as soon as possible.
+## Email
+Feel free to drop me an email at [dtg@soluto.in](mailto:dtg@soluto.in), and I'll do my best to respond as soon as possible.
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+## Social Media:
+Connect with me on social media as well. Find me on [Twitter/X](https://x.com/dtg_fun).

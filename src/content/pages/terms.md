@@ -7,9 +7,9 @@ seo:
 
 **Last updated on January 11, 2024**
 
-These Terms of Service ("Terms") govern your access to and use of [Website Name] ("the Website") and any related services provided by [Website Owner/Company] ("we," "us," or "our"). Please read these Terms carefully before using the Website.
+These Terms of Service ("Terms") govern your access to and use of **DeadTechGuy** ("the Website") and any related services provided by Sivasoorya ("we," "us," or "our"). Please read these Terms carefully before using the Website.
 
-**1. Acceptance of Terms**
+## 1. Acceptance of Terms
 
 By accessing or using the Website, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms or the Privacy Policy, please do not use the Website.
 
@@ -47,6 +47,6 @@ To the fullest extent permitted by law, we shall not be liable for any direct, i
 
 **10. Governing Law**
 
-These Terms are governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of laws principles. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts of [Your Jurisdiction].
+These Terms are governed by and construed in accordance with the laws of India, without regard to its conflict of laws principles. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts of [Your Jurisdiction].
 
 _Thank you for reading our Terms of Service. By using the Website, you agree to be bound by these Terms._

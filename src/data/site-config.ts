@@ -3,13 +3,13 @@ import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://deadtechguy.fun',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'SivaSoorya G.R'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'SivaSoorya G.R',
+    subtitle: 'DTG Creator | Co-Founder Soluto.',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -49,32 +49,33 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'YouTube',
+            href: 'https://www.youtube.com/@DeadTechGuy/'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
+            text: 'Bluesky',
+            href: 'https://bsky.app/profile/deadtechguy.bsky.social'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://x.com/dtg_fun'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+    title: 'DeadTechGuy — Welcome to my small rentefree corner of the internet.',
+    text: "I'm **SivaSoorya**, the mind behind DeadTechGuy.\nI use this space to explore machine learning, deep learning, technology, and the ideas shaping modern software.\nSome posts are deep technical dives, others are short thoughts that don’t need a full video — just honest learning shared in public.\n\nYou can explore my work, experiments, and projects as I continue building and learning in real time.",
+    image: {
+        src: hero,
+        alt: 'DeadTechGuy workspace setup'
     },
+    actions: [
+        {
+            text: 'Get in Touch',
+            href: '/contact'
+        }
+    ]
+},
+
     subscribe: {
         enabled: false,
         title: 'Subscribe to Dante Newsletter',
