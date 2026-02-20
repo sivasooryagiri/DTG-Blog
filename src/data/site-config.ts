@@ -12,7 +12,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'DTG Creator | Co-Founder Soluto.',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/Blog.png',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
