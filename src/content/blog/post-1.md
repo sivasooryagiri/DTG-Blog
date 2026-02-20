@@ -1,7 +1,7 @@
 ---
 title: "A Mini BERT Cross-Section: How [PAD] Tokens Work in Attention Masking"
 excerpt: "A deep dive into how [PAD] tokens behave inside BERT, following the embedding to matmul and attention masking pipeline."
-publishDate: "2026-02-18"
+publishDate: "2026-02-20"
 tags:
   - ML
   - Research Paper
