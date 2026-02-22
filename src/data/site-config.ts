@@ -10,10 +10,10 @@ const siteConfig: SiteConfig = {
     },
     title: 'SivaSoorya G.R',
     subtitle: 'DTG Creator | Co-Founder Soluto.',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    description: 'DeadTechGuy (SivaSoorya) shares machine learning notes, tech experiments, and honest builds-in-public — no guru energy, just real learning.',
     image: {
-        src: '/Blog.png',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '../assets/images/og/deadtechguy-site.png',
+        alt: 'DeadTechGuy — ML notes, experiments, and tech thoughts'
     },
     headerNavLinks: [
         {

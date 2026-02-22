@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020" />
+      <stop offset="100%" stop-color="#101b2d" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g opacity="0.18" stroke="#ffffff">
+    <g stroke-width="1">
+      <path d="M0 90 H1200" />
+      <path d="M0 180 H1200" />
+      <path d="M0 270 H1200" />
+      <path d="M0 360 H1200" />
+      <path d="M0 450 H1200" />
+      <path d="M0 540 H1200" />
+    </g>
+  </g>
+
+  <g font-family="'Space Grotesk', 'JetBrains Mono', system-ui, sans-serif" fill="#edf2f7">
+    <text x="120" y="220" font-size="56" font-weight="700">[PAD] Tokens & Attention</text>
+    <rect x="120" y="236" width="520" height="4" fill="#63e6be" />
+    <text x="120" y="300" font-size="24" fill="rgba(237,242,247,0.75)">A Mini BERT Cross‑Section</text>
+  </g>
+
+  <g fill="#63e6be" opacity="0.9">
+    <rect x="120" y="360" width="80" height="80" rx="10" />
+    <rect x="220" y="360" width="80" height="80" rx="10" />
+    <rect x="320" y="360" width="80" height="80" rx="10" />
+    <rect x="420" y="360" width="80" height="80" rx="10" />
+  </g>
+  <g fill="#0b1020" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="600">
+    <text x="140" y="410">PAD</text>
+    <text x="240" y="410">PAD</text>
+    <text x="340" y="410">PAD</text>
+    <text x="440" y="410">PAD</text>
+  </g>
+
+  <text x="120" y="560" font-size="18" fill="rgba(237,242,247,0.55)" font-family="'JetBrains Mono', monospace">deadtechguy.fun/blog</text>
+</svg>
