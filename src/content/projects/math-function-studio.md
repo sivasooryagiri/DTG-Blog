@@ -4,9 +4,7 @@ excerpt: "A fast, interactive math function visualizer with composable expressio
 publishDate: "2026-02-22"
 isFeatured: true
 tags:
-  - Web
   - Math
-  - Visualization
 seo:
   title: "Math Function Studio: A Real‑Time Graphing Playground"
   description: "A fast, interactive math function visualizer with composable expressions, asymptotes, and export‑ready graphs."
@@ -29,6 +27,7 @@ Math Function Studio lets you define multiple named functions, combine them, and
 - Export to PNG or SVG for clean sharing.
 
 Live site: https://mathfunctionstudio.deadtechguy.fun/
+GitHub: https://github.com/sivasooryagiri/Math-Function-Studio
 
 ## How It Works (Short Version)
 This project uses a custom expression parser and evaluator (no external math libraries) so expressions are flexible and fast. The graph is drawn on a canvas with a responsive viewport, drag + zoom controls, and a few helper tools like axis labels and hover readouts.
