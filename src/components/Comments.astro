@@ -1,0 +1,60 @@
+---
+export type Props = {
+    repo?: string;
+    issueTerm?: string;
+    theme?: string;
+};
+
+const {
+    repo = 'sivasooryagiri/DTG-Blog',
+    issueTerm = 'pathname',
+    theme = 'preferred-color-scheme'
+} = Astro.props;
+---
+
+<section class="my-16 sm:my-24">
+    <h2 class="mb-8 font-serif text-xl italic sm:mb-12 sm:text-2xl">Comments</h2>
+    <div
+        class="border-main border border-dashed p-4 sm:p-6"
+        data-utterances-container
+        data-repo={repo}
+        data-issue-term={issueTerm}
+        data-theme={theme}
+    ></div>
+</section>
+
+<script>
+    const initUtterances = () => {
+        const containers = document.querySelectorAll('[data-utterances-container]');
+        containers.forEach((container) => {
+            if (!(container instanceof HTMLElement)) return;
+
+            // Reset on client-side navigation so utterances reloads correctly.
+            container.innerHTML = '';
+
+            const repo = container.dataset.repo;
+            const issueTerm = container.dataset.issueTerm;
+            const theme = container.dataset.theme;
+
+            if (!repo || !issueTerm || !theme) return;
+
+            const script = document.createElement('script');
+            script.src = 'https://utteranc.es/client.js';
+            script.setAttribute('repo', repo);
+            script.setAttribute('issue-term', issueTerm);
+            script.setAttribute('theme', theme);
+            script.setAttribute('crossorigin', 'anonymous');
+            script.async = true;
+
+            container.appendChild(script);
+        });
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initUtterances, { once: true });
+    } else {
+        initUtterances();
+    }
+
+    document.addEventListener('astro:page-load', initUtterances);
+</script>
