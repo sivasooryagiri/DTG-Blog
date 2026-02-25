@@ -167,7 +167,7 @@ One last thing,
 -> Max length isn MAX else truncate it.
 
 Thank you for Reading My Blog. 
-Currenty I don't have a comment section, im working on it until then you can email me your comment d[dtg@soluto.in](mailto:dtg@soluto.in) .
+
 
 Colab repo of Mock Training I did.
 You can visualise how attn_score while training in this notebook.
