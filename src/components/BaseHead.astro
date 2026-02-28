@@ -14,9 +14,19 @@ export type Props = {
     pageType?: 'website' | 'article';
 };
 
-const { description = '', pageType = 'website' } = Astro.props;
-const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
+const { description = siteConfig.description, pageType = 'website' } = Astro.props;
+const title = [Astro.props.title, siteConfig.seoTitle ?? siteConfig.title].filter(Boolean).join(' | ');
 const image = Astro.props.image ?? siteConfig.image;
+const personName = siteConfig.personName ?? siteConfig.title;
+const brandName = siteConfig.brandName ?? siteConfig.title;
+const keywords = siteConfig.keywords?.join(', ');
+const sameAs = siteConfig.socialLinks?.map((link) => link.href) ?? [];
+const personAlternateNames = Array.from(
+    new Set([brandName, ...(siteConfig.alternateNames ?? [])].filter((name) => Boolean(name) && name !== personName))
+);
+const brandAlternateNames = Array.from(
+    new Set([personName, ...(siteConfig.alternateNames ?? [])].filter((name) => Boolean(name) && name !== brandName))
+);
 let resolvedImage: { src: string; alt?: string } | undefined;
 if (image?.src) {
     if (typeof image.src === 'string') {
@@ -39,19 +49,44 @@ if (image?.src) {
     }
 }
 const canonicalURL = new URL(Astro.request.url, Astro.site);
+const canonicalUrlString = formatCanonicalURL(canonicalURL);
+const websiteBaseUrl = formatCanonicalURL(siteConfig.website);
+const personStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${websiteBaseUrl}#person`,
+    name: personName,
+    alternateName: personAlternateNames,
+    url: websiteBaseUrl,
+    sameAs
+};
+const organizationStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${websiteBaseUrl}#organization`,
+    name: brandName,
+    alternateName: brandAlternateNames,
+    url: websiteBaseUrl,
+    sameAs
+};
+const websiteStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${websiteBaseUrl}#website`,
+    name: brandName,
+    alternateName: Array.from(new Set([personName, ...(siteConfig.alternateNames ?? [])])),
+    url: websiteBaseUrl,
+    publisher: { '@id': `${websiteBaseUrl}#organization` }
+};
 
 /**
  * Enforce some standard canonical URL formatting across the site.
  */
 function formatCanonicalURL(url: string | URL) {
-    const path = url.toString();
+    let path = url.toString();
     const hasQueryParams = path.includes('?');
-    // If there are query params, make sure the URL has no trailing slash
-    if (hasQueryParams) {
-        path.replace(/\/?$/, '');
-    }
-    // otherwise, canonical URL always has a trailing slash
-    return path.replace(/\/?$/, hasQueryParams ? '' : '/');
+    path = path.replace(/\/?$/, hasQueryParams ? '' : '/');
+    return path;
 }
 ---
 
@@ -60,6 +95,8 @@ function formatCanonicalURL(url: string | URL) {
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>{title}</title>
 <meta name="generator" content={Astro.generator} />
+<meta name="author" content={personName} />
+{keywords && <meta name="keywords" content={keywords} />}
 
 <!-- Fonts -->
 <link rel="preload" as="font" type="font/woff2" href={interWoff2} crossorigin="anonymous" />
@@ -69,14 +106,18 @@ function formatCanonicalURL(url: string | URL) {
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS" />
+<script type="application/ld+json" set:html={JSON.stringify(personStructuredData)} />
+<script type="application/ld+json" set:html={JSON.stringify(organizationStructuredData)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteStructuredData)} />
 
 <!-- Page Metadata -->
-<link rel="canonical" href={formatCanonicalURL(canonicalURL)} />
+<link rel="canonical" href={canonicalUrlString} />
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={pageType} />
-<meta property="og:url" content={formatCanonicalURL(canonicalURL)} />
+<meta property="og:url" content={canonicalUrlString} />
+<meta property="og:site_name" content={brandName} />
 <meta property="og:title" content={title} />
 {description && <meta property="og:description" content={description} />}
 {resolvedImage?.src && <meta property="og:image" content={resolvedImage.src} />}
@@ -84,7 +125,7 @@ function formatCanonicalURL(url: string | URL) {
 
 <!-- X/Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:url" content={formatCanonicalURL(canonicalURL)} />
+<meta name="twitter:url" content={canonicalUrlString} />
 <meta name="twitter:title" content={title} />
 {description && <meta name="twitter:description" content={description} />}
 {resolvedImage?.src && <meta name="twitter:image" content={resolvedImage.src} />}

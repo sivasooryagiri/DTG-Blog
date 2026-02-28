@@ -9,8 +9,22 @@ const siteConfig: SiteConfig = {
         alt: 'SivaSoorya G.R'
     },
     title: 'SivaSoorya G.R',
+    seoTitle: 'DeadTechGuy | SivaSoorya G.R',
+    personName: 'SivaSoorya G.R',
+    brandName: 'DeadTechGuy',
+    alternateNames: ['Dead Tech Guy', 'SivaSoorya', 'Siva Soorya', 'DTG'],
+    keywords: [
+        'SivaSoorya',
+        'Siva Soorya',
+        'SivaSoorya G.R',
+        'DeadTechGuy',
+        'Dead Tech Guy',
+        'machine learning blog',
+        'deep learning notes'
+    ],
     subtitle: 'DTG Creator | Co-Founder Soluto.',
-    description: 'DeadTechGuy (SivaSoorya) shares machine learning notes, tech experiments, and honest builds-in-public — no guru energy, just real learning.',
+    description:
+        'DeadTechGuy (also known as Dead Tech Guy), created by SivaSoorya G.R, shares machine learning notes, tech experiments, and honest builds in public.',
     image: {
         src: '../assets/images/og/deadtechguy-site.png',
         alt: 'DeadTechGuy — ML notes, experiments, and tech thoughts'
@@ -62,19 +76,19 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-    title: 'DeadTechGuy — Welcome to my small rentfree corner of the internet.',
-    text: "I'm **SivaSoorya**, the mind behind DeadTechGuy.\nI use this space to explore machine learning, deep learning, technology, and the ideas shaping modern software.\nSome posts are deep technical dives, others are short thoughts that don’t need a full video — just honest learning shared in public.\n\nYou can explore my work, experiments, and projects as I continue building and learning in real time.\n\nCheck out my work on [GitHub](https://github.com/sivasooryagiri).",
-    image: {
-        src: hero,
-        alt: 'DeadTechGuy workspace setup'
+        title: 'DeadTechGuy - Welcome to my small rentfree corner of the internet.',
+        text: "I'm **SivaSoorya G.R** (aka **DeadTechGuy** or **Dead Tech Guy**).\nI use this space to explore machine learning, deep learning, technology, and the ideas shaping modern software.\nSome posts are deep technical dives, others are short thoughts that do not need a full video - just honest learning shared in public.\n\nYou can explore my work, experiments, and projects as I continue building and learning in real time.\n\nCheck out my work on [GitHub](https://github.com/sivasooryagiri).",
+        image: {
+            src: hero,
+            alt: 'DeadTechGuy workspace setup'
+        },
+        actions: [
+            {
+                text: 'Get in Touch',
+                href: '/contact'
+            }
+        ]
     },
-    actions: [
-        {
-            text: 'Get in Touch',
-            href: '/contact'
-        }
-    ]
-},
 
     subscribe: {
         enabled: false,

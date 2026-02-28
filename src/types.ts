@@ -34,6 +34,11 @@ export type SiteConfig = {
     website: string;
     avatar?: ImageInput;
     title: string;
+    seoTitle?: string;
+    personName?: string;
+    brandName?: string;
+    alternateNames?: string[];
+    keywords?: string[];
     subtitle?: string;
     description: string;
     image?: ImageInput;

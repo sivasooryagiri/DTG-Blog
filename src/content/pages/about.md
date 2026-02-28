@@ -12,7 +12,7 @@ seo:
 
 ## Yes, I’m Alive — DeadTechGuy here. You can call me Siv.
 
-Yes, I’m Alive — DeadTechGuy here. You can call me Siv.
+I am **SivaSoorya G.R**, and I create under the name **DeadTechGuy** (also written as **Dead Tech Guy**).
 
 Just an average Indian guy on the internet, building things, breaking things, and learning tech the messy way.
 Not a guru. Not an expert. Just someone documenting experiments, ML notes, and random tech thoughts while trying to make things work.
