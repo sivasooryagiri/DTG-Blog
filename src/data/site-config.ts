@@ -36,29 +36,29 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Projects',
-            href: '/projects'
+            href: '/projects/'
         },
         {
             text: 'Blog',
-            href: '/blog'
+            href: '/blog/'
         },
         {
             text: 'Tags',
-            href: '/tags'
+            href: '/tags/'
         }
     ],
     footerNavLinks: [
         {
             text: 'About',
-            href: '/about'
+            href: '/about/'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: '/contact/'
         },
         {
             text: 'Terms',
-            href: '/terms'
+            href: '/terms/'
         }
     ],
     socialLinks: [
@@ -85,7 +85,7 @@ const siteConfig: SiteConfig = {
         actions: [
             {
                 text: 'Get in Touch',
-                href: '/contact'
+                href: '/contact/'
             }
         ]
     },
