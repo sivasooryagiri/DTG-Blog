@@ -11,7 +11,7 @@ tags:
   - AI
 seo:
   title: "QuizLive: Building a Free, Open-Source Kahoot Alternative"
-  description: "How I built QuizLive — a real-time multiplayer quiz app with React and Firebase. No subscriptions, no player accounts, cheat-proof scoring, and free for up to 100 players."
+  description: "Real-time multiplayer quiz app built with React and Firebase. No subscriptions, no player accounts, cheat-proof scoring, free for up to 100 players."
   image:
     src: "../../assets/images/og/quizlive.png"
     alt: "QuizLive — Open Source Real-Time Quiz"

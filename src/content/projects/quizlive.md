@@ -10,7 +10,7 @@ tags:
   - Open Source
 seo:
   title: "QuizLive: Open Source Real-Time Quiz Platform"
-  description: "A free, self-hosted Kahoot alternative built with React and Firebase. No subscriptions, no player accounts, cheat-proof scoring, and 80–100 players free forever."
+  description: "Free, self-hosted Kahoot alternative with React and Firebase. No subscriptions, no accounts, cheat-proof scoring, 80–100 players free."
   image:
     src: "../../assets/images/og/quizlive.png"
     alt: "QuizLive — Open Source Real-Time Quiz"
