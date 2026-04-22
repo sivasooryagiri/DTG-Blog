@@ -1,8 +1,8 @@
 ---
 title: About
 seo:
-  title: About DeadTechGuy
-  description: Learn more about the mind behind DeadTechGuy — a space for machine learning, tech exploration, research thoughts, and digital experiments.
+  title: About DeadTechGuy — SivaSoorya G.R
+  description: SivaSoorya G.R, aka DeadTechGuy. Building things, breaking things, documenting ML experiments and tech rabbit holes in public.
   image:
     src: '../../assets/images/about.jpg'
     alt: DeadTechGuy workspace setup
@@ -10,13 +10,10 @@ seo:
 
 ![DeadTechGuy workspace](../../assets/images/about.jpg)
 
-## Yes, I’m Alive — DeadTechGuy here. You can call me Siv.
+## Yes, I'm Alive — DeadTechGuy here. You can call me Siv.
 
-I am **SivaSoorya G.R**, and I create under the name **DeadTechGuy** (also written as **Dead Tech Guy**).
+**SivaSoorya G.R**. Indian guy on the internet, building things, breaking things, and occasionally learning from it.
 
-Just an average Indian guy on the internet, building things, breaking things, and learning tech the messy way.
-Not a guru. Not an expert. Just someone documenting experiments, ML notes, and random tech thoughts while trying to make things work.
-
-This blog exists because learning quietly is boring — so I write stuff here, even the failures.
+Not a guru. Not an expert. Just someone documenting ML experiments, tech rabbit holes, and random thoughts in public — because learning quietly is boring, and failures deserve to be written down too.
 
 Skill level? Still loading…
