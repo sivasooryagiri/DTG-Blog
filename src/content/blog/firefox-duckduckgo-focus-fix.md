@@ -2,7 +2,7 @@
 title: "How I Quietly Fixed My Focus Problem by Moving to Firefox + DuckDuckGo"
 excerpt: "Why switching from Chrome + Google to Firefox + DuckDuckGo made my browsing cleaner, quieter, and more productive."
 publishDate: "2026-07-12"
-isFeatured: false
+isFeatured: true
 tags:
   - Firefox
   - DuckDuckGo
