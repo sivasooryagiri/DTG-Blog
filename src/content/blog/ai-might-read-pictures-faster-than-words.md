@@ -1,5 +1,5 @@
 ---
-title: "AI Might Read Pictures Faster Than Words — And This Is True"
+title: "AI Might Read Pictures More Efficiently Than Words — And This Is True"
 excerpt: "DeepSeek’s OCR result suggests AI can store and process text more efficiently as images than as standard text tokens."
 publishDate: "2026-07-18"
 isFeatured: true
@@ -10,7 +10,7 @@ tags:
   - DeepSeek
   - Research
 seo:
-  title: "AI Might Read Pictures Faster Than Words — And This Is True"
+  title: "AI Might Read Pictures More Efficiently Than Words — And This Is True"
   description: "Why DeepSeek’s OCR paper suggests text-as-image can be far more memory-efficient for AI models, and what that changes."
   image:
     src: ../../assets/images/blog/ai-reads-pictures-faster-than-words.png
@@ -39,7 +39,7 @@ So it's less "images are naturally richer" and more "text tokens are boxed into 
 
 ## What this could mean in practice
 
-If this pans out, it opens up a genuinely useful trick: instead of pasting a long block of text into an AI chatbot, you could take a screenshot of it and upload the image instead. The model would, in theory, be able to "read" the same content while using a fraction of the memory it would otherwise need — which could mean AI systems that hold onto much longer conversations or documents without running out of room, or that respond faster and cheaper because they're processing less raw data per idea.
+If this pans out, it opens up a genuinely useful trick: instead of pasting a long block of text into an AI chatbot, you could take a screenshot of it and upload the image instead. The model would, in theory, be able to "read" the same content while using a fraction of the memory it would otherwise need — which could mean AI systems that hold onto much longer conversations or documents without running out of room, packing more information into the same amount of space rather than processing it any quicker.
 
 The DeepSeek paper takes this a step further with an idea that resembles human memory: as a conversation grows longer, older parts of it could be stored as lower-resolution, "blurrier" images — cheaper to keep around, and appropriately vaguer, the same way your memory of a conversation last month is fuzzier than one from this morning. In practice, that means older parts of a conversation get quietly downgraded to blurrier, cheaper-to-store images, while the most recent exchange stays sharp — a sliding scale of detail rather than an all-or-nothing memory.
 
