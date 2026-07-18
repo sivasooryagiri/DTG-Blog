@@ -13,11 +13,11 @@ seo:
   title: "AI Might Read Pictures More Efficiently Than Words — And This Is True"
   description: "Why DeepSeek’s OCR paper suggests text-as-image can be far more memory-efficient for AI models, and what that changes."
   image:
-    src: ../../assets/images/blog/ai-reads-pictures-faster-than-words.png
-    alt: "Why AI reads pictures faster than words"
+    src: ../../assets/images/blog/ai-reads-pictures-more-efficiently-than-words.png
+    alt: "AI might read pictures more efficiently than words"
   pageType: article
 ---
-![Why AI reads pictures faster than words](../../assets/images/blog/ai-reads-pictures-faster-than-words.png)
+![AI might read pictures more efficiently than words](../../assets/images/blog/ai-reads-pictures-more-efficiently-than-words.png)
 
 A few weeks ago, DeepSeek released an OCR paper with a strange and interesting claim buried inside it: you can hand an AI model a *picture* of a page of text, and it can pack ten times more information into its memory than if you'd given it the text itself, character by character.
 
